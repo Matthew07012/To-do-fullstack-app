@@ -1,6 +1,6 @@
 //connecting backend to frontend
 
-const API_URL = "http://127.0.0.1:8000/tasks";
+const API_URL = "https://to-do-fullstack-app.onrender.com/tasks";
 
 window.onload = loadTask;
 
@@ -39,7 +39,7 @@ async function loadTask() {
     }
 
     li.appendChild(taskText);
-    
+
         //create complete and delete buttons for each task
         const completeButton = document.createElement("button");
         completeButton.textContent = "Complete";
