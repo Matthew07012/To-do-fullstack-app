@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To-Do app</title>
+        <!-- connecting to css file -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>To-Do list</h1>
+
+            <div class="input-row">
+                <!-- creating an input field for the task -->
+                <input id="taskInput" type="text" placeholder="Enter a task">
+                <!--creating a button-->
+                <button onclick="addTask()"> Add Task </button>
+            </div>  
+        </div>
+        
+        <h2>Tasks</h2>
+        <!-- empty list to be filled with tasks from the database -->
+        <ul id="taskList"></ul>
+        <!-- connects js file -->
+        <script src="script.js"></script>
+    </body>
+        
+</html>
