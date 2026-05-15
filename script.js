@@ -39,7 +39,8 @@ async function loadTask() {
     }
 
     li.appendChild(taskText);
-
+    
+        //create complete and delete buttons for each task
         const completeButton = document.createElement("button");
         completeButton.textContent = "Complete";
 
